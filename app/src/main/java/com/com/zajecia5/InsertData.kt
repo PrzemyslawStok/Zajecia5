@@ -1,11 +1,14 @@
 package com.com.zajecia5
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.com.zajecia5.databinding.ActivityInsertDataBinding
 
 class InsertData : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_insert_data)
+
+        val binding = ActivityInsertDataBinding.inflate(layoutInflater)
+        setContentView(binding.root)
     }
 }
