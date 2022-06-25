@@ -10,5 +10,7 @@ class InsertData : AppCompatActivity() {
 
         val binding = ActivityInsertDataBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
     }
 }
